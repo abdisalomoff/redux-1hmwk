@@ -70,10 +70,10 @@ function restockChocolateCake(quantity = 1) {
 }
 
 const initialState = {
-    numOfCakes: 13,
-    numOfIceCream: 5,
-    numOfCheeseCake: 10,
-    numOfChocolateCake: 20,
+    numOfCakes: 11,
+    numOfIceCream: 7,
+    numOfCheeseCake: 11,
+    numOfChocolateCake: 18,
 }
 
 const reducer = (state = initialState, action) => {
